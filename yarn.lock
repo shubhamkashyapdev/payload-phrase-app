@@ -1314,6 +1314,14 @@
     amazon-cognito-identity-js "^6.1.2"
     resend "^0.12.0"
 
+"@payloadcms/plugin-form-builder@^1.0.15":
+  version "1.0.15"
+  resolved "https://registry.yarnpkg.com/@payloadcms/plugin-form-builder/-/plugin-form-builder-1.0.15.tgz#55094658e7a0324915a0908b4952039bb2899106"
+  integrity sha512-lr6TnO95rbr3Zcjgc157pEJ5P2OpTdz13QKqSfESjdAGAinhfYtM903jgAfLVCV16o2MyyOjpEMMt9kuwx3LOQ==
+  dependencies:
+    deepmerge "^4.2.2"
+    escape-html "^1.0.3"
+
 "@payloadcms/richtext-slate@latest":
   version "1.0.0-beta.5"
   resolved "https://registry.yarnpkg.com/@payloadcms/richtext-slate/-/richtext-slate-1.0.0-beta.5.tgz#669aaef59ff836f083cf177ccb55dac3f0aeecc4"
@@ -3573,7 +3581,7 @@ escalade@^3.1.1:
   resolved "https://registry.yarnpkg.com/escalade/-/escalade-3.1.1.tgz#d8cfdc7000965c5a0174b4a82eaa5c0552742e40"
   integrity sha512-k0er2gUkLf8O0zKJiAhmkTnJlTvINGv7ygDNPbeIsX/TJjGJZHuh9B2UxbsaEkmlEo9MfhrSzmhIlhRlI2GXnw==
 
-escape-html@~1.0.3:
+escape-html@^1.0.3, escape-html@~1.0.3:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/escape-html/-/escape-html-1.0.3.tgz#0258eae4d3d0c0974de1c169188ef0051d1d1988"
   integrity sha512-NiSupZ4OeuGwr68lGIeym/ksIZMJodUGOSCZ/FSnTxcrekbvqrgdUxlJOMpijaKZVjAJrWrGs/6Jy8OMuyj9ow==
@@ -5492,10 +5500,10 @@ pause@0.0.1:
   resolved "https://registry.yarnpkg.com/pause/-/pause-0.0.1.tgz#1d408b3fdb76923b9543d96fb4c9dfd535d9cb5d"
   integrity sha512-KG8UEiEVkR3wGEb4m5yZkVCzigAD+cVEJck2CzYZO37ZGJfctvVptVO192MwrtPhzONn6go8ylnOdMhKqi4nfg==
 
-payload@beta:
-  version "2.0.0-beta.30"
-  resolved "https://registry.yarnpkg.com/payload/-/payload-2.0.0-beta.30.tgz#56594994d70eef83ca95850a38dadad2c30e6494"
-  integrity sha512-haQ/LCJMNKWgimRlPs5HmNWbT2jP4SHYFxd2ht43hESZ4gE5uFvwsgpqeWwQiO+QCttmgNBkrfmJfNLLDm7hgw==
+payload@latest:
+  version "2.0.3"
+  resolved "https://registry.yarnpkg.com/payload/-/payload-2.0.3.tgz#272bdf28056be71812739f38a43926d8182891e5"
+  integrity sha512-+uUx3RUZt9mCHxi/7iWm9etRc7tYQxN6vE64eaPBX+oXsfjo1CrUkuzzxGK4gzR97MiOaacOAedDp03zMsXpWg==
   dependencies:
     "@date-io/date-fns" "2.16.0"
     "@dnd-kit/core" "6.0.8"

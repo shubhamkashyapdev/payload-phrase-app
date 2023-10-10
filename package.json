@@ -18,6 +18,7 @@
     "@payloadcms/bundler-webpack": "latest",
     "@payloadcms/db-mongodb": "latest",
     "@payloadcms/plugin-cloud": "^0.0.10",
+    "@payloadcms/plugin-form-builder": "^1.0.15",
     "@payloadcms/richtext-slate": "latest",
     "cross-env": "^7.0.3",
     "dotenv": "^8.2.0",
